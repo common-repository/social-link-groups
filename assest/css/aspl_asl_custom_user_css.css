@@ -1,0 +1,17 @@
+.aspl-social-link-main .aspl-asl-icon {
+    width: 40px;
+    float: left;
+    padding: 5px;
+}
+.aspl_stikcy_position_left{
+	position: fixed;
+    width: 30px!important;
+    left: 10px;
+    top: 25%;
+}
+.aspl_stikcy_position_right{
+	position: fixed;
+    width: 30px!important;
+    right: 15px;
+    top: 25%;
+}

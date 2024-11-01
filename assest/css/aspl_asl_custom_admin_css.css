@@ -1,0 +1,84 @@
+.aspl_asl_addnew_main_section{
+	padding:20px 20px;
+}
+.aspl_asl_edit_title input{
+	width: 100%;
+	margin-top: 10px;
+  padding: 5px 5px;
+	margin-bottom: 	10px;
+}
+.aspl_asl_edit_title label{
+	font-size: 	24px;
+}
+.aspl_asl_short_code input{
+	width: 100%;
+	background-color: lightgrey;
+}
+.aspl_asl_link_data {
+	margin-top: 20px;
+}
+.aspl_container {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.aspl_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: auto;
+  left: auto;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.aspl_container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.aspl_container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.aspl_container input:checked ~ .checkmark:after {
+  display: block;
+}
+.aspl_container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.aspl_asl_edit_table tr th,
+.aspl_asl_edit_table tr td{
+	padding:10px 10px;
+}
+.aspl_asl_link_input{
+  float: left;
+  width: 65%;
+}
+.aspl_asl_link_btn{
+  margin-left: 10px!important;
+  float: left;  
+  width: 30%;
+}
